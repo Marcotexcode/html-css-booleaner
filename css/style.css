@@ -4,19 +4,24 @@
 }
 
 
+
 /* classi CSS generali */
 
 .Highlighter_span {
     background-color: yellow;
 }
 
- .margine1 {
-     margin-top: 10px;
- }
+.color_span {
+    color: rgb(16, 175, 175);
+}
 
- .margine2 {
+.margine1 {
+     margin-top: 10px;
+}
+
+.margine2 {
      margin-top: 25px;
- }
+}
 
 .color_text {
     color: rgb(153, 153, 153);
@@ -71,8 +76,8 @@ main {
 }
 
 
-/* section 1 */
 
+/* section 1 */
 
 .photo_tim {
     width: 49%;
@@ -88,9 +93,31 @@ ul {
 }
 
 th {
-width: 200px;
+    width: 200px;
 }
 
 table {
     border-collapse: collapse;
+}
+
+
+
+/* section 3  */
+
+.background_img2 {
+    background-image: url(/Users/marco/Desktop/Boolean/esercizi/html-css-booleaner/img/graph.jpg);
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.background_img1 {
+    width: 200px;
+    height: 200px;
+    background-image: url(/Users/marco/Desktop/Boolean/esercizi/html-css-booleaner/img/monitor.jpg); 
+}
+
+.background_img1 h4,.background_img2 h4  {
+   padding: 10px;
+   color: white; 
 }
