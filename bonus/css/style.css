@@ -3,6 +3,25 @@
 *{
     margin: 0;
     padding: 0;
+    color: white;
+    text-align: center;
+    
+
+}
+
+body {
+    background-image: url(/Users/marco/Desktop/Boolean/esercizi/html-css-booleaner/img/pattern.png);
+    background-color:rgba(36, 35, 35,0.8); 
+}
+
+
+/* classi CSS generali */
+.margine1 {
+    margin-top: 10px;
+}
+
+.margine2 {
+    margin-top: 25px;
 }
 
 
@@ -11,7 +30,7 @@
 
 header {
     width: 100%;
-    background-image: url(/Users/marco/Desktop/Boolean/esercizi/html-css-booleaner/img/pattern.png);
+    
     background-size: 40%;
     height: 90px;
     background-color: rgba(116, 26, 26,0.8);
@@ -24,6 +43,39 @@ header {
 }
 
 img {
-    height: 40px;
+    height: 60px;
     margin-top: 30px;
+}
+
+
+
+/* corpo */
+
+main {
+    width: 70%;
+    margin: auto;
+    background-color: rgb(51, 48, 48);
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+
+
+/* section 1 */
+
+.margine_bottom {
+    margin-bottom: 60px;
+    
+}
+
+.titolo {
+    font-size: 25px;
+    padding: 20px;
+}
+
+.photo_tim {
+    width: 49%;
+    height: 500px;
+    border-radius: 10px;
+    margin: 0px 3px 0px 3px ;
 }
