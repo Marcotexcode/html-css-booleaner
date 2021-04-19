@@ -1,12 +1,27 @@
 * {
     margin: 0;
-    padding: 0;
-    
+    padding: 0;  
 }
 
-.border {
-    border: 1px solid black;
+
+/* classi CSS generali */
+
+ .margine {
+     margin-top: 10px;
+ }
+
+.color_text {
+    color: rgb(153, 153, 153);
 }
+
+.description_text {
+    font-size: 13px;
+}
+
+.description_text {
+    font-size: 13px;
+}
+
 
 /* header */
 
@@ -19,7 +34,7 @@ header {
 }
 
 .logo {  
-    width: 80%;
+    width: 70%;
     margin: auto;
     height: 80px; 
 }
@@ -28,4 +43,26 @@ img {
     height: 40px;
     margin-top: 30px;
 }
+
+
+
+/* corpo */
+
+main {
+    width: 70%;
+    height: 1000px;
+    margin: auto;
+}
+
+
+/* section 1 */
+
+
+.photo_tim {
+    width: 49%;
+    height: 500px;
+}
+
+
+
 
