@@ -1,0 +1,29 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* header */
+
+header {
+    width: 100%;
+    background-image: url(/Users/marco/Desktop/Boolean/esercizi/html-css-booleaner/img/pattern.png);
+    background-size: 40%;
+    height: 90px;
+    background-color: rgba(116, 26, 26,0.8);
+}
+
+.logo {  
+    width: 70%;
+    margin: auto;
+    height: 80px; 
+}
+
+img {
+    height: 40px;
+    margin-top: 30px;
+}
